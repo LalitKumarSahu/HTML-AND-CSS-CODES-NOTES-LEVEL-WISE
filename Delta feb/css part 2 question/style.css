@@ -1,0 +1,14 @@
+*{
+ font-family: 'Courier New';
+}
+#heading{
+  color: #1b74e4;
+}
+.btn{
+  background-color: black;
+  color: white;
+}
+.button{
+  background-color: aqua;
+ 
+}

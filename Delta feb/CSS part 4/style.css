@@ -1,0 +1,21 @@
+/* ----alpha channel------ */
+div{
+  height: 200px;
+  width: 200px;
+   /* background-color: rgba(255, 0, 0, 0);  */
+  background-color: rgba(255, 0, 0, 0.906)
+ 
+ } 
+
+
+
+/* -------opacity---- */
+#opacity{
+  background-color: #ffa511;
+  /* opacity: 0; */
+  opacity: 1;
+}
+
+
+
+

@@ -1,0 +1,32 @@
+
+
+
+#container{
+  height: 300px;
+  width: 600px;
+  background-color: yellow;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  /* row-gap: 10px;
+  column-gap: 10px; */
+  /* grid-gap: 10px 10px; */
+  grid-gap: 10px;
+
+}
+.item{
+  /* height: 50px;
+  width: 100px; */
+  background-color: greenyellow;
+  border: 2px solid black;
+  text-align: center;
+}
+.one{
+  /* grid-row-start: 1;
+  grid-row-end: 3; */
+
+  /* grid-row: 1/4; */
+
+  grid-row: 1/span 4;
+}

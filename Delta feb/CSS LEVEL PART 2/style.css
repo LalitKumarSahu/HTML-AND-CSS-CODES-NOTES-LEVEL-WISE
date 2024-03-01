@@ -1,0 +1,99 @@
+*{
+  font-family: 'Courier New';
+}
+h3{
+  color: purple;
+}
+h1{
+  color: #b92b27;
+}
+#login{
+  background-color: white;
+}
+#signup{
+  background-color: #b92b27;
+  color: white;
+}
+.upvote{
+  background-color: green;
+  color: white;
+}
+/* decendant selector */
+.post a{
+  color: purple;
+  background-color: yellow;
+}
+nav ul li{
+  color: hotpink;
+}
+/* sibling */
+p+h3{
+  text-decoration: underline;
+}
+.upvote+button{
+  background-color: cornflowerblue;
+  color: darkblue;
+}
+/* child cominator */
+div > input{
+  background-color: darksalmon;
+}
+/* attribute selector */
+input[type="text"]{
+  color: red;
+}
+input[type="password"]{
+  color: green;
+}
+input[type]{
+  color: red;
+}
+/* #myId p{
+  color: green;
+} */
+
+div[id="myId"] p{
+  color: red;
+}
+/* pseudo class */
+button:hover{
+  background-color: black;
+  color: white;
+}
+h3:hover{
+  text-decoration: overline;
+}
+button:active{
+  background-color: hotpink;
+  color: black;
+}
+p:active{
+  font-weight: bold;
+  color: green;
+}
+/* checkd hover */
+input[type="radio"]:checked + label{
+       font-weight:bold ;
+       color: red;
+}
+/* nth type */
+.post:nth-of-type(2){
+  background-color: blanchedalmond;
+}
+/* pseudo element */
+h1::first-letter{
+  color: green;
+}
+p::first-line{
+  color: purple;
+}
+p::selection{
+  background-color: limegreen;
+}
+/* css order select */
+h3{
+  background-color: yellow;
+}
+h3{
+  background-color: blue;
+}

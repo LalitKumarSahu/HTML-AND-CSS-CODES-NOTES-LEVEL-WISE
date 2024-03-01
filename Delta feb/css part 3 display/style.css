@@ -1,0 +1,43 @@
+/* h2{
+  display: inline;
+  background-color: pink;
+}
+span{
+  display: block;
+  background-color: yellowgreen;
+} */
+/* div{
+background-color: red;
+} */
+
+/* div{
+background-color: pink;
+  border: 2px solid black;
+  height: 100px;
+  width: 200px;
+  padding: 50px;
+  margin: 20px;
+}
+p{
+  background-color: red;
+}
+span{
+  background-color: pink;
+  border: 2px solid black;
+  height: 100px;
+  width: 200px;
+  padding: 50px;
+  margin: 20px;
+} */
+
+div{
+  height: 200px;
+  width: 200px;
+  background-color: chartreuse;
+  border: 2px solid black;
+  margin: 5px;
+  display: inline-block;
+}
+#four{
+  display: none;
+}

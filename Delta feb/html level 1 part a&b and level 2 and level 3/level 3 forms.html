@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>forms - input attribute</title>
+</head>
+<body>
+
+  <!-- input typee attribute and palceholder -->
+
+   <form action="/action">
+    <!-- username
+     <input type="text"placeholder="enter username"> 
+    <br>
+    password
+    <input type="password"placeholder="enter password">
+    <br>
+    number
+    <input type="number"placeholder="enter number">
+    <br>
+    time
+    <input type="time">
+    <br>
+    color
+    <input type="color">
+    <br>
+    <input type="date">
+    <br> -->
+
+
+  <!-- label in input -->
+  <!-- <label>
+    username
+    <input type="text"palceholder="enter username">
+  </label> -->
+
+  <!-- classical apporach label -->
+  <div>
+    <label for="username">username :</label>
+    <input type="text"placeholder="enter username"id="username">
+  </div>
+ 
+  <div>
+    <label for="passsword">passsword :</label>
+    <input type="text"placeholder="enter password"id="passsword">
+  </div>
+ 
+  <div>
+    <label for="age">Enter age:</label>
+    <input type="number" placeholder="age" id="age">
+  </div>
+
+  <!-- ❤️ button -->
+  <button>submit</button>
+  <button>hello</button>
+  <button type="submit">submit</button>
+  <button type="button">hello</button>
+  <button type="reset">reset button</button>
+<br>
+  <!-- button using input -->
+  <input type="button"value="click me">
+  <input type="submit">
+</form>
+<hr>
+<!-- name attribute -->
+<form action="https://www.youtube.com/results">
+
+  <input type="text" placeholder="search in youtube" name="search_query"/>
+  <button>search</button>
+</form>
+ <hr>
+ 
+<!-- practice question 8 -->
+<form action="https://www.google.com/search">
+<input type="text" placeholder="search in google" name="q"/>
+<button>search</button>
+</form> 
+<hr>
+
+<!-- checkbox input element -->
+
+<form action="/server">
+  <input type="checkbox" name="age" id="age"checked/>
+  <label for="age">i am 18+</label>
+  <button>submit</button>
+</form>
+
+<!--  radio input element-->
+
+<form action="/server">
+<div>
+  <input type="radio" name="fruit" id="apple"value="apple"/>
+  <label for="apple">apple</label>
+  <input type="radio" name="fruit" id="mango"value="mango"/>
+  <label for="mango">mango</label>
+  <input type="radio" name="fruit" id="orange"value="orange"/>
+  <label for="orange">orange</label>
+  <button>submit</button>
+</div>
+<br>
+<div>
+  chose your subject
+  <input type="checkbox" name="subjects" id="math" value="math"/>
+  <label for="math">math</label>
+  <input type="checkbox"name="subjects"id="science"value="science"/>
+  <label for="science">science</label>
+  <input type="checkbox"name="subjects"id="physics"value="physics">
+  <label for="physics">physics</label>
+  <button>submit</button>
+</div>
+
+<!-- select input element -->
+<div>
+  choose your profession
+  <select name="profession" id="profession">
+    <option value="stu">student</option>
+    <option value="dev">developer</option>
+  </select>
+</div>
+<label for="vol">Select your volume level :</label>
+<input type="range" id="vol"min="0"max="100"name="vol"step="10">
+<button>submit</button>
+<br>
+<!-- text area -->
+<label for="feedback">please give your valuable feedback</label>
+<textarea id="feedback" name="feedback"rows="5"cols="50"></textarea>
+<button>submit</button>
+<br>
+<hr>
+<!-- practice question 8 -->
+<h3>Registration form</h3>
+<div>
+  <input type="text"placeholder="First Name"name="fname">
+  <input type="text"placeholder="Last Name"name="lname">
+</div>
+
+<div>
+  <label for="gender">please select gender</label>
+  <select name="gender" id="gender">
+    <option value="male"> Male</option>
+    <option value="female">female</option>
+    <option value="O">other</option>
+  </select>
+</div>
+<div>
+  DO you agree to all terms of service?
+  <input type="checkbox"id="tos_agree"name="tos_agree">
+  <label for="tos_agree">Yes, I agree</label>
+</div>
+  <button>Register</button>
+</form>
+
+</body>
+</html>

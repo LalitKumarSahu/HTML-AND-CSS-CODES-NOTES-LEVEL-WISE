@@ -1,0 +1,22 @@
+h1{
+  text-align: center;
+  text-decoration: underline;
+  /* letter-spacing: normal; */
+  letter-spacing: 10px;
+   font-family: arial;
+}
+h3{
+  text-align: right;
+  text-decoration: line-through;
+}
+h2{
+  font-weight: normal;
+  text-decoration: overline;
+}
+p{
+ font-weight: bold; 
+ /* line-height: 2.5; */
+ line-height: normal;
+ /* font-size: 2px; */
+ font-size: 15px;
+}
